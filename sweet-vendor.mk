@@ -7,7 +7,13 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/bin/charger:$(TARGET_COPY_OUT_SYSTEM)/bin/charger \
+    vendor/xiaomi/sweet/proprietary/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml \
+    vendor/xiaomi/sweet/proprietary/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml \
+    vendor/xiaomi/sweet/proprietary/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml \
     vendor/xiaomi/sweet/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
+    vendor/xiaomi/sweet/proprietary/framework/vendor.xiaomi.hardware.misys-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.xiaomi.hardware.misys-V1.0-java.jar \
+    vendor/xiaomi/sweet/proprietary/framework/vendor.xiaomi.hardware.misys-V2.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.xiaomi.hardware.misys-V2.0-java.jar \
+    vendor/xiaomi/sweet/proprietary/framework/vendor.xiaomi.hardware.misys.V3_0.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.xiaomi.hardware.misys.V3_0.jar \
     vendor/xiaomi/sweet/proprietary/system/lib/libcameraservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcameraservice.so \
     vendor/xiaomi/sweet/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/xiaomi/sweet/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
